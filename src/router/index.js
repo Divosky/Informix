@@ -1,7 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
+import oNas from '@/components/oNas'
 import Gallery from '@/components/Gallery'
+import ZnajdzNas from '@/components/ZnajdzNas'
+import Kontakt from '@/components/Kontakt'
+import PogotowieKomputerowe from '@/components/PogotowieKomputerowe'
+import Partnerzy from '@/components/Partnerzy'
+
 
 Vue.use(Router)
 
@@ -14,9 +20,34 @@ export default new Router({
       component: HelloWorld
     },
     {
+      path: '/O-nas',
+      name: oNas,
+      component: oNas
+    },
+    {
       path: '/Galeria',
       name: 'Gallery',
       component: Gallery
+    },
+    {
+      path: '/Znajdz-nas',
+      name: 'ZnajdzNas',
+      component: ZnajdzNas
+    },
+    {
+      path: '/Kontakt',
+      name: 'Kontakt',
+      component: Kontakt
+    },
+    {
+      path: '/Pogotowie-Komputerowe',
+      name: 'PogotowieKomputerowe',
+      component: PogotowieKomputerowe
+    },
+    {
+      path: '/Partnerzy',
+      name: 'Partnerzy',
+      component: Partnerzy
     }
   ]
 })
