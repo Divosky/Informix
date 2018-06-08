@@ -3,17 +3,17 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 520.1 284.5" style="enable-background:new 0 0 520.1 284.5;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#A77C5F;}
-	.st1{fill:#D6BD87;stroke:#A77C5F;stroke-width:5;stroke-miterlimit:10;}
-	.st2{fill:#FFFFFF;}
-	.st3{fill:none;stroke:#A77C5F;stroke-width:2;stroke-miterlimit:10;}
+	.st0{fill:#A77C5F;} /* paszcza ryby */
+	.st1{fill:#D6BD87;stroke:#A77C5F;stroke-width:5;stroke-miterlimit:10;} /* fill: ryba; stroke: Obrys ryby */
+	.st2{fill:#FFFFFF;} /* Zęby */
+	.st3{fill:none;stroke:#A77C5F;stroke-width:2;stroke-miterlimit:10;} /* Myszka i przewód */
 	.st4{fill:none;}
-	.st5{fill:#A17456;}
+	.st5{fill:#A17456;} /* Napis */
 	.st6{font-family:'MyriadPro-Bold';}
 	.st7{font-size:53px;}
 	.st8{font-family:'MyriadPro-Regular';}
 	.st9{font-size:13px;}
-	.st10{fill:#020304;}
+	.st10{fill:#020304;} /* Oczy */
 </style>
 <g>
 	<path id="XMLID_130_" class="st0" d="M222,71.3c0,0-13,13.6-1.3,44.8c3.4,9,8.8,19.5,17.2,31.6l-4.2,23.8c0,0,0.5-31.6-11.4-37.5
