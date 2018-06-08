@@ -45,7 +45,9 @@
         </div>
       </nav>
     </header>
-    <router-view/>
+    <main class="m-t-3">
+      <router-view/>
+    </main>
   </div>
 </template>
 
