@@ -47,10 +47,7 @@
 
 <script>
 export default {
-  name: 'Gallery',
-  props: {
-    msg: String
-  }
+  name: 'Gallery'
 }
 </script>
 

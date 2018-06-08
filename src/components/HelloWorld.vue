@@ -1,15 +1,12 @@
 <template>
   <section class="container has-text-centered">
-    <img src="/assets/logo.svg" alt="Informix" class="page-logo">
+    <img src="../assets/logo.svg" alt="Informix" class="page-logo">
   </section>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
+  name: 'HelloWorld'
 }
 </script>
 
