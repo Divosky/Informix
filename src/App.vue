@@ -3,40 +3,27 @@
     <header>
       <nav class="navbar is-black">
         <div class="navbar-brand">
-          <a class="navbar-item" href="https://bulma.io">
-            Informix
-          </a>
-          <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+          <router-link to="/" class="navbar-item">Informix</router-link>
+          <div class="navbar-burger burger" data-target="navbarMain">
             <span></span>
             <span></span>
             <span></span>
           </div>
         </div>
 
-        <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div id="navbarMain" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item" href="onas.html">
-              O nas
-            </a>
+            <router-link to="/O-nas" class="navbar-item">O nas</router-link>
             <router-link to="/Galeria" class="navbar-item">Galeria</router-link>
-
-            <a class="navbar-item" href="znajdznas.html">
-              Znajdź Nas
-            </a>
-            <a class="navbar-item" href="kontact.html">
-              Kontakt
-            </a>
+            <router-link to="/Znajdz-nas" class="navbar-item">Znajdź Nas</router-link>
+            <router-link to="/Kontakt" class="navbar-item">Kontakt</router-link>
             <div class="navbar-item has-dropdown is-hoverable">
               <a class="navbar-link" href="#">
                 Inne
               </a>
               <div class="navbar-dropdown is-boxed">
-                <a class="navbar-item" href="pogotowie.html">
-                  Pogotowie Komputerowe
-                </a>
-                <a class="navbar-item" href="partnerzy.html">
-                  Partnerzy
-                </a>
+                <router-link to="/Pogotowie-Komputerowe" class="navbar-item">Pogotowie Komputerowe</router-link>
+                <router-link to="/Partnerzy" class="navbar-item">Partnerzy</router-link>
               </div>
             </div>
           </div>
