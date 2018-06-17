@@ -23,7 +23,6 @@
               </a>
               <div class="navbar-dropdown is-boxed">
                 <router-link to="/Pogotowie-Komputerowe" class="navbar-item">Pogotowie Komputerowe</router-link>
-                <router-link to="/Partnerzy" class="navbar-item">Partnerzy</router-link>
               </div>
             </div>
           </div>
