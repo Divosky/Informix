@@ -61,10 +61,10 @@
 </template>
 
 <script>
-let currentDate = new Date();
-let currentDay = currentDate.getDay();
-let now = currentDate.getHours() + "." + currentDate.getMinutes();
-let weekdays = [
+const currentDate = new Date();
+const currentDay = currentDate.getDay();
+const now = currentDate.getHours() + "." + currentDate.getMinutes();
+const weekdays = [
   ["Sunday"], // Closed
   ["Monday", 9.00, 18.00],
   ["Tuesday", 9.00, 18.00],
