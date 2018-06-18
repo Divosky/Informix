@@ -1,57 +1,70 @@
 <template>
-  <div id="app">
-    <header class="page-header">
-      <nav class="navbar is-black">
-        <div class="navbar-brand">
-          <router-link to="/" class="navbar-item">Informix</router-link>
-          <div class="navbar-burger burger" data-target="navbarMain">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
+<div id="app">
+  <header class="page-header">
+    <nav class="navbar is-black">
+      <div class="navbar-brand">
+        <router-link to="/" class="navbar-item">Informix</router-link>
+        <div class="navbar-burger burger" data-target="navbarMain">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
+      </div>
 
-        <div id="navbarMain" class="navbar-menu">
-          <div class="navbar-start">
-            <router-link to="/O-nas" class="navbar-item">O nas</router-link>
-            <router-link to="/Galeria" class="navbar-item">Galeria</router-link>
-            <router-link to="/Znajdz-nas" class="navbar-item">Znajdź Nas</router-link>
-            <router-link to="/Kontakt" class="navbar-item">Kontakt</router-link>
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link" href="#">
-                Inne
-              </a>
-              <div class="navbar-dropdown is-boxed">
-                <router-link to="/Pogotowie-Komputerowe" class="navbar-item">Pogotowie Komputerowe</router-link>
-              </div>
+      <div id="navbarMain" class="navbar-menu">
+        <div class="navbar-start">
+          <router-link to="/O-nas" class="navbar-item">O nas</router-link>
+          <router-link to="/Galeria" class="navbar-item">Galeria</router-link>
+          <router-link to="/Znajdz-nas" class="navbar-item">Znajdź Nas</router-link>
+          <router-link to="/Kontakt" class="navbar-item">Kontakt</router-link>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="#">
+              Inne
+            </a>
+            <div class="navbar-dropdown is-boxed">
+              <router-link to="/Pogotowie-Komputerowe" class="navbar-item">Pogotowie Komputerowe</router-link>
             </div>
           </div>
-          <div class="navbar-end">
-          </div>
         </div>
-      </nav>
-      <section class="hero is-medium">
-        <div class="hero-body">
-          <div class="container">
-            <h1 class="title">
-              Sklep i serwis komputerowy
-            </h1>
-            <h2 class="subtitle">
-              Kasy fiskalne, laptopy, komputery, drukarki, tusze, części, naprawa, sprzedaż
-            </h2>
-          </div>
+        <div class="navbar-end">
         </div>
-      </section>
-    </header>
-    <main class="m-t-3">
-      <router-view/>
-    </main>
-  </div>
+      </div>
+    </nav>
+    <section class="hero is-medium">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Sklep i serwis komputerowy
+          </h1>
+          <h2 class="subtitle">
+            Kasy fiskalne, laptopy, komputery, drukarki, tusze, części, naprawa, sprzedaż
+          </h2>
+        </div>
+      </div>
+    </section>
+  </header>
+  <main class="m-t-3">
+    <router-view/>
+  </main>
+  <cookie-law theme="base" button-text="Ok!">
+    <div slot="message">
+      <p>
+      Strona ta (jak prawie każda inna w internecie) używa ciasteczek, aby lepiej działać. Jest to normalne, ale niestety prawo
+      EU wymaga od nas umieszczenia tej informacji. ;)
+      </p>
+    </div>
+  </cookie-law>
+</div>
 </template>
 
 <script>
+  import CookieLaw from 'vue-cookie-law'
+
   export default {
-    name: 'app'
+    name: 'app',
+    components: {
+      CookieLaw
+    },
   }
 
   document.addEventListener('DOMContentLoaded', function () {
