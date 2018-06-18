@@ -13,7 +13,6 @@
 
       <div id="navbarMain" class="navbar-menu">
         <div class="navbar-start">
-          <router-link to="/O-nas" class="navbar-item">O nas</router-link>
           <router-link to="/Galeria" class="navbar-item">Galeria</router-link>
           <router-link to="/Znajdz-nas" class="navbar-item">Znajdź Nas</router-link>
           <router-link to="/Kontakt" class="navbar-item">Kontakt</router-link>

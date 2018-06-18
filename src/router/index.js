@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
-import oNas from '@/components/oNas'
 import Gallery from '@/components/Gallery'
 import ZnajdzNas from '@/components/ZnajdzNas'
 import Kontakt from '@/components/Kontakt'
@@ -16,11 +15,6 @@ export default new Router({
       path: '/',
       name: 'HelloWorld',
       component: HelloWorld
-    },
-    {
-      path: '/O-nas',
-      name: oNas,
-      component: oNas
     },
     {
       path: '/Galeria',
