@@ -5,6 +5,8 @@ import Gallery from '@/components/Gallery'
 import ZnajdzNas from '@/components/ZnajdzNas'
 import Kontakt from '@/components/Kontakt'
 import PogotowieKomputerowe from '@/components/PogotowieKomputerowe'
+import Partnerzy from '@/components/Partnerzy'
+
 
 Vue.use(Router)
 
@@ -35,6 +37,11 @@ export default new Router({
       path: '/Pogotowie-Komputerowe',
       name: 'PogotowieKomputerowe',
       component: PogotowieKomputerowe
+    },
+    {
+      path: '/Partnerzy',
+      name: 'Partnerzy',
+      component: Partnerzy
     }
   ]
 })
