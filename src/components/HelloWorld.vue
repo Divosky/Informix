@@ -7,7 +7,7 @@
       <section>
         <ul>
           <li>kompleksowa obsługa firm</li>
-          <li>kasy fiskalne i drukarki fiskalne (wiodacy producenci: Novitus, Elzab, Emar, Datecs, Ipos), posiadamy uprawnienia na bileterki Emar</li>
+          <li>kasy fiskalne i drukarki fiskalne (wiodacy producenci: <a href="https://www.novitus.pl/" target="_blank">Novitus</a>, <a href="https://www.elzab.com.pl/pl/" target="_blank">Elzab</a>, <a href="http://emar.pl/" target="_blank">Emar</a>, <a href="https://www.datecs-polska.pl/" target="_blank">Datecs</a>, <a href="https://ipos.pl/" target="_blank">Ipos</a>), posiadamy uprawnienia na bileterki Emar</li>
           <li>oprogramowanie ERP CRM, sprzedażowe-magazynowe (Asseco Wapro, Insert GT i Nexo, Insoft PC Market, Simplex Small Business) instalacje, wdrożenia, szkolenia, serwis</li>
           <li>sieci teleinformatyczne, projektowanie, montaż, konfiguracja, serwis (szafy, switche, routery, sieci WiFi), sprzęt wiodących producentów</li>
           <li>dla wymagających firm możliwość podpisania preferencyjnej umowy serwisowej (dodatkowe godziny pomocy technicznej telefonicznej lub wizyty serwisanta, sprzęt zastępczy, pierwszeństwo w przyjazdach serwisu do klienta)</li>
@@ -27,7 +27,7 @@
         <ul>
           <li>punkt opłat Monetia</li>
           <li>punkt przyjęć i odbiorów paczek Inpost</li>
-          <li>punkt przyjęć i odbiorów awizowanych paczek GLS (Parcele Shop)</li>
+          <li>punkt przyjęć i odbiorów awizowanych paczek <a href="https://gls-group.eu/PL/pl/home">GLS (Parcel Shop)</a></li>
           <li>kolorowe ksero A3</li>
           <li>wydruki a3, laminowanie, bindowanie</li>
         </ul>
