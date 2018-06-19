@@ -3,7 +3,7 @@
   <header class="page-header">
     <nav class="navbar is-black">
       <div class="navbar-brand">
-        <router-link to="/" class="navbar-item">Informix</router-link>
+        <router-link to="/" class="navbar-item"><img class="logo" src="/logo.png" alt="Informix"></router-link>
         <div class="navbar-burger burger" data-target="navbarMain">
           <span></span>
           <span></span>
@@ -108,6 +108,12 @@
   .navbar.is-black .navbar-end .navbar-link.is-active, .navbar.is-black .navbar-end .navbar-link:hover, .navbar.is-black .navbar-end>a.navbar-item.is-active, .navbar.is-black .navbar-end>a.navbar-item:hover, .navbar.is-black .navbar-start .navbar-link.is-active, .navbar.is-black .navbar-start .navbar-link:hover, .navbar.is-black .navbar-start>a.navbar-item.is-active, .navbar.is-black .navbar-start>a.navbar-item:hover {
     background: transparent;
     color: rgba(255, 255, 255, .9)
+  }
+  .navbar-item img {
+    max-height: initial;
+  }
+  .logo {
+    width: 130px;
   }
   .hero .title {
     color: #fff;
