@@ -49,10 +49,14 @@ export default {
 </script>
 
 <style scoped>
+.columns {
+  justify-content: space-around;
+}
 .column {
   position: relative;
   width: 100%;
   height: 600px;
+  margin-bottom: .3rem;
   transition: .3s ease-in-out;
   cursor: pointer;
 }
@@ -67,7 +71,7 @@ export default {
 }
 @media screen and (min-width: 768px) {
   .column {
-    width: 50%;
+    width: 49%;
   }
 }
 @media screen and (min-width: 1408px) {
